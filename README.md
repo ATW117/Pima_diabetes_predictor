@@ -1,0 +1,1 @@
+This project uses a Random Forest model tuned for higher F1 score to predict diabetes risk using the Pima Indians Diabetes dataset. The pima_rf notebook is not organized yet. It cannot be run sequentially as it may cause errors.
