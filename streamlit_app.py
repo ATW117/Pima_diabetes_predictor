@@ -19,7 +19,7 @@ def load_model():
 @st.cache_resource
 def get_fitted_preprocessor():
     # Load the training data to fit the preprocessor
-    df = pd.read_csv("pima_data/diabetes.csv") #Change this path to the directory containing dataset
+    df = pd.read_csv("diabetes.csv") #Dataset should be in the root directory
     
     # Recreate the preprocessor with current scikit-learn version
     features_to_impute = ["Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI"]
